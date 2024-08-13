@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(https://getwallpapers.com/wallpaper/full/3/5/7/82530.jpg);
+}
+
+@font-face {
+  font-family: 'Khmer OS';
+  src: url('path/to/khmer-os-font.woff2') format('woff2'),
+    url('path/to/khmer-os-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Khmer OS', sans-serif;
+}
+
+.header {
+  width: auto;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img {
+  margin-top: 5px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box-item {
+  width: 400px;
+  /* background:transparent; */
+  background: rgb(212, 212, 212);
+  /* border: 1px solid #00d5ff; */
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 2px 6px rgb(0, 208, 255);
+}
+
+.box-item p {
+  color: #0074a6;
+  font-size: 20px;
+
+}
+
+.footer {
+  background-color: rgb(93, 93, 93);
+  margin-bottom: 10px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text{
+  font-size: 8px;
+  color: #ddd;
+}
+.icon {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 78%;
+  height: 100%;
+}
+
+p {
+  text-align: start;
+  margin-left: 5px;
+}
+
+.fab {
+  font-size: 30px;
+}
+#fabT{
+  font-size: 30px;
+  color: rgb(0, 157, 255);
+
+}
+#fabY {
+  font-size: 30px;
+  color: red;
+}
+#fabF{
+  font-size: 30px;
+  color: rgb(25, 0, 255);
+
+}
+.img{
+  margin-top: 0px;
+  max-width: 30px;
+  max-height: 30px;
+  object-fit: contain;
+}
+
+/* Styles for phones (screens up to 767px wide) */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+/* Styles for tablets (screens 768px to 1199px wide) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 32px;
+
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+/* Styles for desktops (screens 1200px and wider) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}

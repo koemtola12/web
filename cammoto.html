@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cammoto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img id="imag" src="logo.png" alt="Animated Image">
+    <!-- <img src="logo.png" alt=""> -->
+  </div>
+  <div class="container">
+    <div class="box-list">
+      <div class="box-item" onclick="camTechnical()">
+        <div class="icon">
+          <i id="fabT" class="fab fa-telegram"></i>
+        </div>
+        <div class="item">
+          <p>ខេមម៉ូតូ ផ្នែកបច្ចេកទេស</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="camsale()">
+        <div class="icon">
+          <i id="fabT" class="fab fa-telegram"></i>
+        </div>
+        <div class="item">
+          <p>ខេមម៉ូតូ ផ្នែកលក់</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="camGroupTelegram()">
+        <div class="icon">
+          <i id="fabT" class="fab fa-telegram"></i>
+        </div>
+        <div class="item">
+          <p>ខេមម៉ូតូ គ្រុបតេលេក្រាម</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="camFacebookPage()">
+        <div class="icon">
+          <i id="fabF" class="fab fa-facebook"></i>
+        </div>
+        <div class="item">
+          <p>ខេមម៉ូតូ ហ្វេសប៊ុកផេក</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="camFacebookGroup()">
+        <div class="icon">
+          <i id="fabF" class="fab fa-facebook"></i>
+        </div>
+        <div class="item">
+          <p>ខេមម៉ូតូ ហ្វេសប៊ុកគ្រុប</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="camYoutube()">
+        <div class="icon">
+          <i id="fabY" class="fab fa-youtube"></i>
+        </div>
+        <div class="item">
+          <p>ខេមម៉ូតូ យូថូប ឆាណែល</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="callNumber('016994244')">
+        <div class="icon">
+          <img class="img" src="call_icon.png" alt="">
+        </div>
+        <div class="item">
+          <p>016 99 42 44</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="callNumber('012994244')">
+        <div class="icon">
+          <img class="img" src="call_icon.png" alt="">
+        </div>
+        <div class="item">
+          <p>012 99 42 44</p>
+        </div>
+      </div>
+      <div class="box-item" onclick="callNumber('0979994244')">
+        <div class="icon">
+          <img class="img" src="call_icon.png" alt="">
+        </div>
+        <div class="item">
+          <p>097 999 42 44</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <h6 class="footer-text">Copyright by CAMMOTO</h6>
+  </div>
+  <script>
+    function camTechnical() {
+      window.location.href = "https://t.me/cammoto_tech";
+    }
+    function camsale() {
+      window.location.href = "https://t.me/cammoto_part";
+    }
+    function camGroupTelegram() {
+      window.location.href = "https://www.youtube.com";
+    }
+    function camFacebookPage() {
+      window.location.href = "https://www.facebook.com/menghongbymoto?mibextid=ZbWKwL";
+    }
+    function camFacebookGroup() {
+      window.location.href = "https://www.facebook.com/groups/1001047041027334/?ref=share_group_link";
+    }
+    function camYoutube() {
+      window.location.href = "https://www.youtube.com/@cmms.school";
+    }
+    function callNumber(phoneNumber) {
+      window.location.href = "tel:" + phoneNumber;
+    }
+  </script>
+</body>
+
+</html>
