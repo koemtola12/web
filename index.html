@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button with Phone Number Example</title>
+  <style>
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button class="button" onclick="callAuto('0969832424')">Click me</button>
+
+  <script>
+    function callAuto(phoneNumber) {
+      // Add your auto function code here, using the phoneNumber parameter
+      window.location.href = "tel:" + phoneNumber;
+      
+    }
+  </script>
+</body>
+</html>
