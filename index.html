@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Button with Phone Number Example</title>
+  <title>Call Button</title>
   <style>
-    .button {
+    .call-button {
       background-color: #4CAF50;
       border: none;
       color: white;
@@ -18,9 +18,16 @@
   </style>
 </head>
 <body>
-  <a href="tel:0969832424">caaa</a>
-  <a href="tel:0969832424">caaa</a>
+  <button class="call-button" onclick="makeCall()">Call</button>
 
-  
+  <script>
+    function makeCall() {
+      // Replace with the phone number you want to call
+      var phoneNumber = '+1234567890';
+
+      // Open a new window or tab with the phone number
+      window.open('tel:' + phoneNumber);
+    }
+  </script>
 </body>
 </html>
